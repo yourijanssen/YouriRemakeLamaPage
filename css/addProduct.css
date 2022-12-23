@@ -1,0 +1,61 @@
+#banner{
+    margin-top: 100px;
+}
+
+#addSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+#addLeft{
+    float: left;
+    width: 700px;
+    border: #034C3C solid 3px;
+    border-radius: 20px;
+}
+
+#addRight{
+    float: right;
+    width: 500px;
+    height: 900px;
+    background-color: #034C3C;
+    border-radius : 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#addRight h3 {
+    color: #E3F2E0;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.pricingCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 430px;
+    height: 230px;
+    background-color: #749C75;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.pricingInput{
+    width: 370px;
+    align-self: center;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#benefits{
+    height: 100px;
+}

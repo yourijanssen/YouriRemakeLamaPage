@@ -1,0 +1,104 @@
+#productImg {
+    display: flex;
+    position: relative;
+    padding-top: 75px;
+
+}
+
+#image2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#image {
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#pad {
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.lama {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 75px;
+    margin-top: 150px;
+    height: auto;
+    width: auto;
+}
+
+.lamaInfo {
+    margin-right: 75px;
+    height: auto;
+    width: auto;
+}
+
+.lamaOuterName {
+    margin-right: 50px;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    background-color: #034C3C;
+}
+
+#lamaName {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.lamaOuterPicture{
+    margin-right: 50px;
+}
+
+.lamaOuterText {
+    margin-right: 50px;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #034C3C;
+}
+
+#lamaText {
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.mySlides {
+    width: 100%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(54, 52, 52, 0.8);
+}

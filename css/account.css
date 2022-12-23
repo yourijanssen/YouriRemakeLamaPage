@@ -1,0 +1,67 @@
+#account{
+    width: 400px;
+    height: 550px;
+    margin-top: 200px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+    align-items: center;
+    display: flex;
+    background-color: #034C3C;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.accountInput{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-left: 10px;
+}
+
+.bioTextInput{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    font-family: 'Homanje' sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.accountButton{
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 3px solid #034C3C;
+    background-color: #749C75;
+    color: #E3F2E0;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#accountButton{
+    display: flex;
+    flex-direction: row;
+}
+
+::placeholder{
+    color: #747574;
+}
+
+#accountInfo{
+    display: inline-block;
+    flex-direction: column;
+    color: white;
+}
+
+.labelInput{
+    margin-left: 10px;
+}
